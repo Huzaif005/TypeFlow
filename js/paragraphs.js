@@ -1,0 +1,14 @@
+const paragraphs = [
+    "The quick brown fox jumps over the lazy dog. This sentence is known as a pangram because it contains every letter of the English alphabet at least once. Pangrams are often used to test typewriters and computer keyboards, as well as to display examples of fonts.",
+    "A journey of a thousand miles begins with a single step. This famous proverb, attributed to the ancient Chinese philosopher Laozi, emphasizes the importance of taking action. No matter how daunting a task may seem, you must start somewhere to achieve your goals.",
+    "In the realm of computer science, algorithms are fundamental. An algorithm is a step-by-step procedure or a set of rules to be followed in calculations or other problem-solving operations. They are the building blocks of software, transforming inputs into desired outputs.",
+    "The universe is incredibly vast and mostly empty space. To put things into perspective, if the sun were the size of a typical front door, the Earth would be about the size of a nickel. Our galaxy, the Milky Way, contains billions of stars, and there are billions of galaxies.",
+    "Learning to code is like learning a new language. It requires patience, practice, and persistence. At first, the syntax might seem confusing and the logic difficult to grasp, but over time, it becomes second nature. Coding empowers you to create, automate, and solve complex problems.",
+    "Music is a universal language that transcends cultural boundaries. It has the power to evoke deep emotions, trigger memories, and bring people together. Whether it's the rhythmic beats of a drum or the soaring melody of a violin, music resonates with the human soul.",
+    "Success is not final, failure is not fatal: It is the courage to continue that counts. This quote by Winston Churchill reminds us that both triumphs and setbacks are temporary. What truly matters is our resilience and determination to keep moving forward despite the odds.",
+    "The human brain is a marvel of biological engineering. It contains billions of neurons connected by trillions of synapses. This complex network allows us to process information, experience emotions, and perform intricate tasks, from solving mathematical equations to composing symphonies.",
+    "Time management is a crucial skill for achieving personal and professional goals. By prioritizing tasks, setting realistic deadlines, and minimizing distractions, you can maximize your productivity. Effective time management helps reduce stress and allows you to focus on what truly matters.",
+    "Nature provides a profound sense of tranquility and awe. A walk through a lush forest or a moment spent watching a sunset can rejuvenate the spirit. Protecting our natural environment is essential not only for the survival of countless species but also for our own well-being."
+];
+
+export default paragraphs;

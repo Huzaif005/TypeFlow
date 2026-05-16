@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test | Ignite Your Speed</title>
+    <meta name="description" content="A beautiful and modern typing speed test to improve your typing skills. Test your WPM and accuracy today.">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script type="module" src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob shape-1"></div>
+        <div class="blob shape-2"></div>
+    </div>
+
+    <main class="app-container">
+        <header>
+            <h1 class="logo">
+                <span class="icon">⌨️</span>
+                <span>Type<span class="highlight">Flow</span></span>
+            </h1>
+            <nav class="settings">
+                <div class="settings-group time-settings">
+                    <button class="setting-btn active" data-time="15">15s</button>
+                    <button class="setting-btn" data-time="30">30s</button>
+                    <button class="setting-btn" data-time="60">60s</button>
+                </div>
+            </nav>
+        </header>
+
+        <section class="typing-section">
+            <div class="stats-bar">
+                <div class="stat">
+                    <span class="stat-label">time</span>
+                    <span class="stat-value" id="time-left">15</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">wpm</span>
+                    <span class="stat-value" id="wpm">0</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">accuracy</span>
+                    <span class="stat-value" id="accuracy">100%</span>
+                </div>
+            </div>
+
+            <div class="typing-area glass-panel">
+                <div class="text-display" id="text-display">
+                    <!-- Text to type goes here -->
+                </div>
+                <textarea id="hidden-input" class="hidden-input" autocomplete="off" spellcheck="false" autoCapitalize="off" autoCorrect="off"></textarea>
+            </div>
+
+            <div class="controls">
+                <button id="restart-btn" class="icon-btn" aria-label="Restart Test">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="1 4 1 10 7 10"></polyline>
+                        <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
+                    </svg>
+                </button>
+            </div>
+        </section>
+
+        <!-- Results Modal -->
+        <div id="results-modal" class="modal hidden">
+            <div class="modal-content glass-panel">
+                <h2>Test Completed! 🎉</h2>
+                <div class="results-grid">
+                    <div class="result-item">
+                        <span class="result-label">WPM</span>
+                        <span class="result-value highlight" id="final-wpm">0</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="result-label">Accuracy</span>
+                        <span class="result-value highlight" id="final-accuracy">0%</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="result-label">Keystrokes</span>
+                        <div class="result-sub">
+                            <span class="correct-text" id="final-correct-keys">0</span> / 
+                            <span class="incorrect-text" id="final-incorrect-keys">0</span>
+                        </div>
+                    </div>
+                </div>
+                <button id="modal-restart-btn" class="primary-btn">Try Again</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Built with ❤️ to improve typing speed.</p>
+    </footer>
+</body>
+</html>
