@@ -37,3 +37,4 @@ typing-speed-test/
 - HTML5
 - CSS3 (Variables, Flexbox, Grid, Animations, Backdrop-filter)
 - Vanilla JavaScript (ES6 modules, DOM manipulation)
+https://chatgpt.com/g/g-p-6a8ddb5d05348191acad00c09875e9d1-campus-ai/project 
